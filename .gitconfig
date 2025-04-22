@@ -1,0 +1,15 @@
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	l = log --decorate --oneline -15
+	up = submodule update --init --recursive
+[core]
+	excludesfile = /nfs/home/sleduc/.gitignore_global
+[user]
+	name = Sebastien Le Duc
+	email = sleduc@kalrayinc.com
+[safe]
+	directory = /work1/sleduc/csw.old
+	directory = /work1/sleduc/networking
